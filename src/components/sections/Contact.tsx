@@ -15,6 +15,7 @@ const Contact: React.FC<ContactProps> = ({ email }) => {
   });
   
   const [showPdf, setShowPdf] = useState(false);
+  const resumeViewerRef = useRef<HTMLDivElement>(null);
 
   const [formStatus, setFormStatus] = useState<{
     submitted: boolean;
@@ -201,7 +202,15 @@ const Contact: React.FC<ContactProps> = ({ email }) => {
 
               <div className="mt-8">
                 <button
-                  onClick={() => setShowPdf(true)}
+                  onClick={() => {
+                    setShowPdf(true);
+                    setTimeout(() => {
+                      resumeViewerRef.current?.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start',
+                      });
+                    }, 100); // Small delay to allow PDF section to render
+                  }}
                   className="inline-block bg-primary text-white px-6 py-3 rounded-lg shadow-lg hover:bg-accent transition-colors duration-300"
 >
                     View Resume
@@ -296,6 +305,7 @@ const Contact: React.FC<ContactProps> = ({ email }) => {
         {showPdf && (
           <motion.div
             id="resume-viewer"
+            ref={resumeViewerRef}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
