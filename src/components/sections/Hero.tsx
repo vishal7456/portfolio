@@ -54,6 +54,7 @@ const Hero: React.FC<HeroProps> = ({ name, tagline, profession }) => {
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              className="mb-4 sm:mb-0" // Add bottom margin for mobile, remove for sm and up
             >
               <Link
                 to="contact"
