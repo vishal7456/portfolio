@@ -25,7 +25,7 @@ const skills = [
   { name: 'Java', level: 90, icon: '/logo/java.png' },
   { name: 'C,C++', level: 85, icon: '/logo/C++.png' },
   { name: 'Python', level: 80, icon: '/logo/python.png' },
-   { name: 'HTML/CSS', level: 90, icon: '/logo/html.png' },
+   { name: 'HTML/CSS', level: 90, icon: '/logo/HTML.png' },
   { name: 'Tailwind CSS', level: 85, icon: '/logo/css.png' },
   { name: 'React.js', level: 90, icon: '/logo/react.png' },
   { name: 'JavaScript', level: 85, icon: '/logo/js.png' },
