@@ -314,7 +314,7 @@ const Contact: React.FC<ContactProps> = ({ email }) => {
             <h3 className="text-xl font-bold text-primary mb-4">My Resume</h3>
             <div className="relative" style={{ paddingTop: '56.25%' }}>
               <iframe
-                src="/CV_V.pdf"
+                src="/Resume.pdf"
                 className="absolute top-0 left-0 w-full h-full"
                 style={{ border: 'solid' }}
                 title="My Resume"
