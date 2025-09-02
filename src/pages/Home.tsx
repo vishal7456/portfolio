@@ -44,7 +44,7 @@ const projects = [
     id: '1',
     title: 'Campus Connect',
     description: ' Campus Connect is a comprehensive digital platform designed to enhance communication and resource sharing within educational institutions.',
-    image: process.env.PUBLIC_URL + '/logo/e-cc.jpg',
+    image: process.env.PUBLIC_URL + '/logo/cc.jpg',
     tags: ['react', 'node.js', 'mongodb'],
     link: 'https://campus-connect-psi.vercel.app/',
   },
@@ -86,7 +86,7 @@ const projects = [
     description: 'A modern portfolio website built with React and Tailwind CSS to showcase projects and skills.',
     image: process.env.PUBLIC_URL + '/logo/portfolio.png',
     tags: ['react', 'tailwind', 'framer-motion'],
-
+    link: 'https://porfolio-frontend-sepia.vercel.app/',
   },
 ];
 
