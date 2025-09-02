@@ -44,9 +44,9 @@ const projects = [
     id: '1',
     title: 'Campus Connect',
     description: ' Campus Connect is a comprehensive digital platform designed to enhance communication and resource sharing within educational institutions.',
-    image: process.env.PUBLIC_URL + '/logo/e-commerce.png',
+    image: process.env.PUBLIC_URL + '/logo/e-cc.jpg',
     tags: ['react', 'node.js', 'mongodb'],
-    link: 'https://e-commerce-platform.vercel.app/',
+    link: 'https://campus-connect-psi.vercel.app/',
   },
   {
     id: '2',
