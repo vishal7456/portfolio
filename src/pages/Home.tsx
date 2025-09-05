@@ -46,7 +46,8 @@ const projects = [
     description: ' Campus Connect is a comprehensive digital platform designed to enhance communication and resource sharing within educational institutions.',
     image: process.env.PUBLIC_URL + '/logo/cc.jpg',
     tags: ['react', 'node.js', 'mongodb'],
-    link: 'https://campus-connect-psi.vercel.app/',
+    demoUrl: 'https://campus-connect-psi.vercel.app/',
+    githubUrl: 'https://github.com/VishalpreetSingh1/CampusConnect',
   },
   {
     id: '2',
@@ -54,7 +55,8 @@ const projects = [
     description: 'A productivity app for managing tasks with drag-and-drop functionality and team collaboration features.',
     image: process.env.PUBLIC_URL + '/logo/task.png',
     tags: ['react', 'firebase', 'tailwind'],
-
+    demoUrl: 'https://example.com/task-management-demo',
+    githubUrl: 'https://github.com/VishalpreetSingh1/Task-Management-App'
   },
   {
     id: '3',
@@ -62,7 +64,8 @@ const projects = [
     description: 'A weather application that displays current and forecasted weather data with interactive visualizations.',
     image: process.env.PUBLIC_URL + '/logo/weather.png',
     tags: ['javascript', 'api', 'css'],
-
+    demoUrl: 'https://weatherly-one-theta.vercel.app/',
+    githubUrl: 'https://github.com/vishal7456/weatherly'
   },
   {
     id: '4',
@@ -70,7 +73,8 @@ const projects = [
     description: 'An analytics dashboard for tracking social media metrics across multiple platforms.',
     image: process.env.PUBLIC_URL + '/logo/dashboard.png',
     tags: ['react', 'chart.js', 'api'],
-
+    demoUrl: 'https://example.com/social-media-dashboard-demo',
+    githubUrl: 'https://github.com/VishalpreetSingh1/Social-Media-Dashboard'
   },
   {
     id: '5',
@@ -78,7 +82,8 @@ const projects = [
     description: 'A web application for discovering recipes based on available ingredients with filtering options.',
     image: process.env.PUBLIC_URL + '/logo/recepie.jpg',
     tags: ['javascript', 'api', 'css'],
-
+    demoUrl: 'https://example.com/recipe-finder-demo',
+    githubUrl: 'https://github.com/VishalpreetSingh1/Recipe-Finder'
   },
   {
     id: '6',
@@ -86,7 +91,8 @@ const projects = [
     description: 'A modern portfolio website built with React and Tailwind CSS to showcase projects and skills.',
     image: process.env.PUBLIC_URL + '/logo/portfolio.png',
     tags: ['react', 'tailwind', 'framer-motion'],
-    link: 'https://porfolio-frontend-sepia.vercel.app/',
+    demoUrl: 'https://porfolio-frontend-sepia.vercel.app/',
+    githubUrl: 'https://github.com/VishalpreetSingh1/portfolio-website'
   },
 ];
 

@@ -83,15 +83,14 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
                   alt={project.title} 
                   className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center p-4 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-white text-sm mb-4">{project.description}</p>
+                <div className="absolute inset-0 bg-primary bg-opacity-70 flex items-center justify-center p-4 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="flex space-x-3">
                     {project.demoUrl && (
                       <motion.a 
                         href={project.demoUrl} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="bg-accent text-primary p-2 rounded-full"
+                        className="bg-accent text-white p-2 rounded-full"
                         whileHover={{ scale: 1.1, y: -2 }}
                       >
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -104,7 +103,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
                         href={project.githubUrl} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="bg-accent text-primary p-2 rounded-full"
+                        className="bg-accent text-white p-2 rounded-full"
                         whileHover={{ scale: 1.1, y: -2 }}
                       >
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
