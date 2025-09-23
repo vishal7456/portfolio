@@ -92,7 +92,7 @@ const projects = [
     image: process.env.PUBLIC_URL + '/logo/portfolio.png',
     tags: ['react', 'tailwind', 'framer-motion'],
     demoUrl: 'https://porfolio-frontend-sepia.vercel.app/',
-    githubUrl: 'https://github.com/VishalpreetSingh1/portfolio-website'
+    githubUrl: 'https://github.com/vishal7456/portfolio'
   },
 ];
 
