@@ -35,7 +35,10 @@ const skills = [
   { name: 'SQL', level: 55, icon: '/logo/sql.png' },
   { name: 'Excel', level: 65, icon: '/logo/excel.png' },
   { name: 'Power BI', level: 75, icon: '/logo/powerbi.png' },
-  { name: 'Git', level: 75, icon: '/logo/git.png' }, // No icon available for Git in /public/logo/
+  { name: 'Git', level: 65, icon: '/logo/git.png' },
+  { name: 'PHP', level: 75, icon: '/logo/php.png' }, 
+ 
+  // No icon available for Git in /public/logo/
   
 ];
 
