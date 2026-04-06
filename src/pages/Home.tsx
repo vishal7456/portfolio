@@ -12,27 +12,24 @@ import Contact from '../components/sections/Contact';
 const userData = {
   name: 'Vishalpreet Singh',
   tagline: 'Turning ideas into elegant, functional digital experiences . Building Data-Driven Web Applications',
-  profession: 'Full Stack Developer & Data Analyst ',
+  profession: 'Data Scientist & AI Engineer',
   email: 'preetvishal7456@gmail.com',
-  bio: `I'm a passionate Full Stack Developer with expertise in building modern web applications using cutting-edge technologies.
-
-With a strong foundation in both frontend and backend development, I create seamless user experiences that are not only visually appealing but also functionally robust. I'm dedicated to writing clean, maintainable code and constantly learning new technologies to stay at the forefront of web development.
-
-When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through blog posts and community engagement. I focus on delivering clear, data-driven solutions that add real value. This portfolio showcases my projects, case studies, and analytical skills — each designed to demonstrate my ability to uncover insights and translate them into meaningful business outcomes.`,
+  bio: `Aspiring Data Scientist with a strong foundation in Machine Learning and Agentic AI. Proficient in Python and C++, with a focus on developing intelligent, data-driven solutions and automating complex workflows.
+`,
 };
 
 const skills = [
-  { name: 'Java', level: 90, icon: '/logo/java.png' },
+  { name: 'Python', level: 90, icon: '/logo/python.png' },
+  { name: 'Java', level: 80, icon: '/logo/java.png' },
   { name: 'C,C++', level: 85, icon: '/logo/C++.png' },
-  { name: 'Python', level: 80, icon: '/logo/python.png' },
-   { name: 'HTML/CSS', level: 90, icon: '/logo/HTML.png' },
+  { name: 'HTML/CSS', level: 90, icon: '/logo/HTML.png' },
   { name: 'Tailwind CSS', level: 85, icon: '/logo/css.png' },
   { name: 'React.js', level: 90, icon: '/logo/react.png' },
   { name: 'JavaScript', level: 85, icon: '/logo/js.png' },
   { name: 'TypeScript', level: 80, icon: '/logo/ts.png' },
   { name: 'Node.js', level: 65, icon: '/logo/node.png' },
   { name: 'MongoDB', level: 70, icon: '/logo/mongo.png' },
-  { name: 'SQL', level: 55, icon: '/logo/sql.png' },
+  { name: 'SQL', level: 85, icon: '/logo/sql.png' },
   { name: 'Excel', level: 65, icon: '/logo/excel.png' },
   { name: 'Power BI', level: 75, icon: '/logo/powerbi.png' },
   { name: 'Git', level: 65, icon: '/logo/git.png' },
@@ -50,16 +47,16 @@ const projects = [
     image: process.env.PUBLIC_URL + '/logo/cc.jpg',
     tags: ['react', 'node.js', 'mongodb'],
     demoUrl: 'https://campus-connect-psi.vercel.app/',
-    githubUrl: 'https://github.com/VishalpreetSingh1/CampusConnect',
+    githubUrl: 'https://github.com/vishal7456/major_campusconnect',
   },
   {
     id: '2',
-    title: 'Task Management App',
+    title: 'RAG based QnA System',
     description: 'A productivity app for managing tasks with drag-and-drop functionality and team collaboration features.',
-    image: process.env.PUBLIC_URL + '/logo/task.png',
-    tags: ['react', 'firebase', 'tailwind'],
-    demoUrl: 'https://example.com/task-management-demo',
-    githubUrl: 'https://github.com/VishalpreetSingh1/Task-Management-App'
+    image: process.env.PUBLIC_URL + '/logo/rag.png',
+    tags: ['python', 'Gen AI'],
+    demoUrl: '',
+    githubUrl: 'https://github.com/SabudhFoundation/passion-project-rag_question_answering'
   },
   {
     id: '3',
