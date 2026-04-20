@@ -52,7 +52,7 @@ const projects = [
   {
     id: '2',
     title: 'RAG based QnA System',
-    description: 'A productivity app for managing tasks with drag-and-drop functionality and team collaboration features.',
+    description: 'An advanced RAG system utilizing hybrid search and high-speed LLM generation for complex question answering.',
     image: process.env.PUBLIC_URL + '/logo/rag.png',
     tags: ['python', 'Gen AI'],
     demoUrl: '',
